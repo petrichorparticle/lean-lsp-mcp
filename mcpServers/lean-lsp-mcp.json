@@ -1,0 +1,12 @@
+{
+  "command": "uv",
+  "args": [
+    "--project",
+    "${CLAUDE_PLUGIN_ROOT}",
+    "run",
+    "lean-lsp-mcp"
+  ],
+  "env": {
+    "PATH": "${HOME}/.elan/bin:${PATH}"
+  }
+}
